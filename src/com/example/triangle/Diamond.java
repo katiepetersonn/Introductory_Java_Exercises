@@ -9,10 +9,10 @@ public class Diamond {
 
     public static void drawBottomDiamond(int size){
         for (int x = size - 2; x >= 0; x--) {
-            for (int y = 3; y <= size - x; y++) {
+            for (int y = 2; y <= size - x; y++) {
                 System.out.print(" ");
             }
-            for (int z = 0; z <= 2 * x; z++) {
+            for (int z = 2; z <= 2 * x; z++) {
                 System.out.print("*");
             }
             System.out.println();
