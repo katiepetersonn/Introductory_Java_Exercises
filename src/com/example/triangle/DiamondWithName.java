@@ -12,7 +12,7 @@ public class DiamondWithName {
         diamond.drawBottomDiamond(number - 1);
     }
     public static void createTop(int number){
-        for (int i = 1; i < number * 2; i += 2) {
+        for (int i = 1; i < number * 1; i += 2) {
             for (int j = 3; j < (number - (i / 2) + 1); j++) {
                 System.out.print(" ");
             }
